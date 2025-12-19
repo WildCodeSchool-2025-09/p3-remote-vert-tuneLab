@@ -4,6 +4,8 @@ CREATE TABLE user (
   password VARCHAR(145) NOT NULL
 );
 
+INSERT INTO user (id, email, password) VALUES (1, 'mickael.lambert2@gmail.com', '1234');
+
 CREATE TABLE album (
   id INT PRIMARY KEY AUTO_INCREMENT,
   title VARCHAR(85) NOT NULL,
